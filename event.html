@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plan Your Event in India</title>
+    <link rel="stylesheet" href="evetn.css">
+</head>
+<body>
+    <header>
+        <h1>Plan Your India Event</h1>
+    </header>
+    <h1>Let us plan your India Event</h1>
+
+    <main>
+        <section id="event-planner">
+            <h1>Event Planner</h1>
+            <div>
+                <label for="start-date">Start Date:</label>
+                <input type="date" id="start-date" name="start-date" required>
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+            </div>
+            <div>
+                <label for="duration">Duration (Days):</label>
+                <input type="number" id="duration" name="duration" min="1" required>
+            </div>
+            <button id="search-events">Search Events</button>
+        </section>
+
+        <section id="event-results">
+            <h2>Events in Your Area</h2>
+            <p>Search results will appear here.</p>
+        </section>
+        
+    </main>
+
+    <script src="event.js"></script>
+</body>
+</html>
